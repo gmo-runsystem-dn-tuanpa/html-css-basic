@@ -1,0 +1,63 @@
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  outline: 0;
+  vertical-align: baseline;
+  background: transparent;
+}
+
+html {
+  box-sizing: border-box;
+  line-height: 1.6;
+  font-family: sans-serif;
+}
+
+:root {
+  /* Color */
+  --blue-color: #d9e8fb;
+  --nude-color: #ffe6cd;
+  --violet-color: #e2d5e7;
+  --yellow-light-color: #fff2cd;
+  --green-light-color: #d5e8d4;
+  --red-light-color: #f7cecc;
+  --white-color: #f5f5f5;
+
+  /* Sizing */
+  --header-height: 60px;
+  --footer-height: 70px;
+}
+
+.center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.bg-blue {
+  background-color: var(--blue-color);
+}
+
+.bg-nude {
+  background-color: var(--nude-color);
+}
+
+.bg-violet {
+  background-color: var(--violet-color);
+}
+
+.bg-yellow-light {
+  background-color: var(--yellow-light-color);
+}
+
+.bg-green-light {
+  background-color: var(--green-light-color);
+}
+
+.bg-red-light {
+  background-color: var(--red-light-color);
+}
+
+.bg-gray {
+  background-color: var(--white-color);
+}
