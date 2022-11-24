@@ -1,0 +1,38 @@
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  outline: 0;
+  vertical-align: baseline;
+  background: transparent;
+}
+
+html {
+  box-sizing: border-box;
+  line-height: 1;
+  font-family: sans-serif;
+}
+
+:root {
+  --primary-color: #d9e8fb;
+  --blue-color: #748dab;
+}
+
+ul,
+li {
+  list-style-type: none;
+}
+
+.flex-center {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.container {
+  max-width: 1024px;
+  padding: 0 15px;
+  display: flex;
+  flex-direction: column;
+  margin: auto;
+}
