@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+
+    <!-- Styles -->
+    <link rel="stylesheet" href="./assets/base.css" />
+    <link rel="stylesheet" href="./assets/main.css" />
+
+    <!-- Font -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
+      integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  </head>
+  <body>
+    <div class="app">
+      <!-- header -->
+      <header id="header">
+        <div class="header__left">
+          <div class="header__logo"><span>LOGO</span></div>
+        </div>
+        <div class="header__right">
+          <button class="btn-primary">SignUp</button>
+          <button class="btn-primary">SignIn</button>
+        </div>
+        <button class="header__xs-btn">SIGNUP</button>
+        <button class="header__xs-btn">SIGNIN</button>
+      </header>
+
+      <!-- navigation -->
+      <nav class="nav__container">
+        <div class="nav__collapse">
+          <button class="nav__menu-btn">
+            <i class="fa-solid fa-bars"></i>
+          </button>
+          <ul class="navbar__menu">
+            <li class="navbar__menu-item">
+              <button class="btn-primary nav-btn">Menu1</button>
+            </li>
+            <li class="navbar__menu-item">
+              <button class="btn-primary nav-btn">Menu2</button>
+            </li>
+            <li class="navbar__menu-item">
+              <button class="btn-primary nav-btn">Menu3</button>
+            </li>
+            <li class="navbar__menu-item">
+              <button class="btn-primary nav-btn">Menu4</button>
+            </li>
+          </ul>
+        </div>
+
+        <div class="search">
+          <input type="text" placeholder="Search..." />
+          <button>Go!</button>
+        </div>
+      </nav>
+    </div>
+
+    <script>
+      document.querySelector(".nav__menu-btn").onclick = () => {
+        document.querySelector(".navbar__menu").classList.toggle("active");
+      };
+    </script>
+  </body>
+</html>
