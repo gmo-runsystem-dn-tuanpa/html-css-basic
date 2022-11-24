@@ -1,0 +1,36 @@
+.app {
+  margin: 20px 0;
+}
+
+.item {
+  margin-bottom: 10px;
+  border: 1px solid black;
+  padding: 16px 20px;
+}
+
+.item__title {
+  font-size: 32px;
+  font-weight: 700;
+  margin-bottom: 24px;
+}
+
+.item__desc {
+  display: -webkit-box;
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
+
+.primary-btn {
+  display: flex;
+  margin: auto;
+  align-items: center;
+  justify-content: center;
+  background-color: #3d8bcd;
+  height: 30px;
+  min-width: 150px;
+  color: white;
+  font-weight: 600;
+  margin-top: 30px;
+  border-radius: 8px;
+}
