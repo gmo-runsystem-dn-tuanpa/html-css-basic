@@ -34,6 +34,10 @@ html {
   align-items: center;
 }
 
+.border-gray {
+  border: 1px solid #ccc;
+}
+
 .bg-blue {
   background-color: var(--blue-color);
 }
